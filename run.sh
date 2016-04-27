@@ -8,10 +8,10 @@ echo "Hi~~~"
 KEY=${KEY:-komey}
 echo "Your key (KEY: ${KEY}) "
 
-go bulid server/server.go
+go bulid server.go
 
-chmod 777 server/server
+chmod 777 server
 
-./server/server :8081 :8082 KEY
+./server :8081 :8082 KEY
 
 
