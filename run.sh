@@ -6,7 +6,7 @@ echo "Hi~~~"
 
 
 KEY=${KEY:-komey}
-echo "finding your key (KEY: ${KEY})"
+echo "Your key (KEY: ${KEY}) "
 
 go bulid server/server.go
 
