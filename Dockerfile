@@ -5,7 +5,7 @@ ADD . /home/work
 
 VOLUME ["/home/work"]
 
-RUN chmod 777 /home/work*
+RUN chmod 777 /home/work/*
 EXPOSE 8081 8082
 
 CMD ["/home/work/run.sh"]
