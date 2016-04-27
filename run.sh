@@ -12,6 +12,6 @@ go bulid server/server.go
 
 chmod 777 server/server
 
-./server/server 8081 8082 KEY
+./server/server :8081 :8082 KEY
 
 
